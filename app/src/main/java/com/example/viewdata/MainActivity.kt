@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         btnlistview.setOnClickListener{
-            actionPindah(ListviewActivity())
+            actionPindah(ListViewActivity())
         }
     }
     private fun actionPindah(simpleActivity: Any) {

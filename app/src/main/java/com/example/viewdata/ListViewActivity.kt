@@ -3,13 +3,13 @@ package com.example.viewdata
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
-import kotlinx.android.synthetic.main.activity_list_view.*
-import kotlinx.android.synthetic.main.activity_list_view.*
+import kotlinx.android.synthetic.main.activity_listview.*
 import java.util.*
-class ListviewActivity : AppCompatActivity() {
+
+class ListViewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_list_view)
+        setContentView(R.layout.activity_listview)
         var dataArray: Array<String> =
             resources.getStringArray(R.array.jurusan)
         Arrays.sort(dataArray)
