@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ViewData">
         <activity
-            android:name=".ListViewActivity"
+            android:name=".DetailBuahActivity"
             android:exported="false" />
         <activity
-            android:name=".ListviewActivity"
+            android:name=".RecylerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListViewActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

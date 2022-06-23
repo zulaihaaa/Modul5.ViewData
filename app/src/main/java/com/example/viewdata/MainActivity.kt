@@ -11,6 +11,9 @@ class MainActivity : AppCompatActivity() {
         btnlistview.setOnClickListener{
             actionPindah(ListViewActivity())
         }
+        btnrecylerview.setOnClickListener{
+            actionPindah(RecylerActivity())
+        }
     }
     private fun actionPindah(simpleActivity: Any) {
 
